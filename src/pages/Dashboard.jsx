@@ -1,6 +1,6 @@
 import React from 'react';
 import { Info, Repos, User, Search, Navbar } from '../components/index';
-import loadingImage from '../../public/images/preloader.gif';
+import loadingImage from '../images/preloader.gif';
 import { useGlobalContext } from '../context/context';
 const Dashboard = () => {
   const { loading } = useGlobalContext()
