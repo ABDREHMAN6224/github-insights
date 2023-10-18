@@ -6,12 +6,12 @@ import { useEffect } from 'react';
 const PrivateRoute = ({ children }) => {
   const { isAuthenticated } = useAuth0()
   
-  const navigate = useNavigate()
-  useEffect(()=>{
-    if(!isAuthenticated){
-      navigate("/login")
-    }
-  },[])
+  // const navigate = useNavigate()
+  // useEffect(()=>{
+  //   if(!isAuthenticated){
+  //     navigate("/login")
+  //   }
+  // },[])
   // if (isAuthenticated) {
     return children
   // }
